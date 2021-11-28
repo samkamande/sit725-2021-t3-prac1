@@ -1,0 +1,31 @@
+.page-title h1{
+    text-align: center;
+}
+
+.profile-photo-section {
+	float: left;
+	width: 50%;
+}
+
+.profile-content {
+	float: left;
+	width: 50%;
+}
+
+.single-profile-tab {
+	margin-right: 20px;
+}
+
+.profile-tabs ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.hide-content{
+    display: none;
+}
+
+.profile-tabs ul li .active{
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="page-title">
+        <h1>My Profile</h1>
+    </div> 
+    
+    <div class="profile-description">
+
+        <div class="profile-photo-section">
+            <img src="./images/img.jpg" alt="">
+        </div>
+
+        <div class="profile-content">
+
+            <div class="profile-tabs">
+
+                <ul>
+
+                    <li>
+                        <a href="#" class="active tablinks" onclick="switchTabs(event, 'about-me' )">
+                            About Me
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="tablinks" onclick="switchTabs(event, 'my-services')">
+                            My Services
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="profile-content-description">
+
+                <div id="about-me" class="tabContent">
+                    <p>
+                        My name is Samuel Kamande........
+                    </p>
+                </div>
+
+
+                <div id="my-services" class="tabContent hide-content">
+                    <p>
+                        The services that I offer are.....
+                    </p>
+
+                    <ul>
+                        <li>
+                            Cybersecurity services
+                        </li>
+                        <li>
+                            Forensics services
+                        </li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+<script src="js/script.js"></script>
+
+</html>
